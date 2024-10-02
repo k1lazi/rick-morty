@@ -1,0 +1,25 @@
+{
+  "name": "rick-morty",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/k1lazi/rick-morty.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/k1lazi/rick-morty/issues"
+  },
+  "homepage": "https://github.com/k1lazi/rick-morty#readme",
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  }
+}
