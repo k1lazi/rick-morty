@@ -1,12 +1,48 @@
-<html lang="en">
+<!DOCTYPE html>
+<html lang="pl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Rick & Morty</title>
+
+    <link rel="stylesheet" href="style.scss">
 </head>
 <body>
+<div class="container my-container mt-4">
 
+
+    <div class="pagination d-flex justify-content-between mb-3">
+        <button class="btn btn-primary prevPage" disabled>Poprzednia strona</button>
+
+        <select name="status" id="statusSelect" class="form-select w-auto selectInput">
+            <option value="all">Wybierz status:</option>
+            <option value="alive">Żywy</option>
+            <option value="dead">Martwy</option>
+            <option value="unknown">Nieznany</option>
+        </select>
+
+        <button class="btn btn-primary nextPage">Następna strona</button>
+    </div>
+
+
+    <div class="container-table table-responsive">
+        <table id="data-table" class="table table-striped">
+            <thead>
+            <tr>
+                <th>Zdjęcie</th>
+                <th>Imię</th>
+                <th>Status</th>
+            </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<script src="script.js"></script>
 </body>
 </html>

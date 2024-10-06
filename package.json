@@ -20,6 +20,10 @@
   },
   "homepage": "https://github.com/k1lazi/rick-morty#readme",
   "devDependencies": {
+    "@parcel/transformer-sass": "^2.12.0",
     "parcel": "^2.12.0"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.3"
   }
 }
